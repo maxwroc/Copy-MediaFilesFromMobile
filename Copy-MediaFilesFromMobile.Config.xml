@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<config>
+  <Sources>
+    <Source Name="ONEPLUS A3003">
+      <Path>ONEPLUS A3003\Internal shared storage\DCIM\Camera</Path>
+      <LastDownloadedFileIndex>0</LastDownloadedFileIndex>
+      <Filters>
+        <Filter Type="NewerThan">
+          <Date>12/11/2019</Date>
+          <ExtractDateFromName>
+            <Substring From="4" Length="15" />
+            <Pattern>yyyyMMdd_HHmmss</Pattern>
+          </ExtractDateFromName>
+        </Filter>
+      </Filters>
+    </Source>
+    <Source Name="HUAWEI P20 Pro">
+      <Path>HUAWEI P20 Pro\Internal storage\DCIM\Camera</Path>
+      <LastDownloadedFileIndex>0</LastDownloadedFileIndex>
+      <Filters>
+        <Filter Type="NewerThan">
+          <Date>24/05/2020</Date>
+          <ExtractDateFromName>
+            <Substring From="4" Length="15" />
+            <Pattern>yyyyMMdd_HHmmss</Pattern>
+          </ExtractDateFromName>
+        </Filter>
+      </Filters>
+    </Source>
+    <Source Name="Magdalena A (Galaxy S5)">
+      <Path>Magdalena A (Galaxy S5)\Card\DCIM\Camera</Path>
+      <LastDownloadedFileIndex>0</LastDownloadedFileIndex>
+      <Filters>
+        <Filter Type="NewerThan">
+          <Date>02/09/2018</Date>
+          <DateC>23/11/2017</DateC>
+          <DateB>01/03/2017</DateB>
+          <ExtractDateFromName>
+            <Substring From="0" Length="15" />
+            <Pattern>yyyyMMdd_HHmmss</Pattern>
+          </ExtractDateFromName>
+        </Filter>
+      </Filters>
+    </Source>
+    <Source Name="Dev (D:)">
+      <Path>D:\Photos\Wlodawa2222</Path>
+      <LastDownloadedFileIndex>0</LastDownloadedFileIndex>
+      <Filters>
+        <Filter Type="NewerThan">
+          <Date>01/01/2018</Date>
+          <ExtractDateFromName>
+            <Substring From="4" Length="15" />
+            <Pattern>yyyyMMdd_HHmmss</Pattern>
+          </ExtractDateFromName>
+        </Filter>
+      </Filters>
+    </Source>
+  </Sources>
+  <Destination>
+    <Temp>D:\Photos\mama</Temp>
+  </Destination>
+</config>
